@@ -86,3 +86,50 @@ Ordered List (Numbered)
         <li>Of</li>
         <li>Issac 2</li>
     </ol>
+
+Links & Images
+
+How do I create a link to sllboces.org
+    <a href="https://sllboces.org" target="_blank">SLL BOCES</a>
+
+How do I create a link to a relative path (page in the same directory)
+    <a href="about.html">
+
+Link to a file in the content folder
+    <a href="content/page.html">Page</a>
+
+A Link to another section of the page
+    <a href="#about">Jumpto the About section</a>
+
+A link to send an email
+    <a href="mailto:student@sllboces.org">Email Me</a>
+
+Image
+
+What are the two required attributes for <img> tags?
+alt - accessibility text
+src - file path to the image
+
+<img src="images/hero.jpg" alt="Adirondack Mountains in fall">
+
+What is hot-linking an image
+- linking to an image somewhere on the internet
+- Placeholder images for design purposes
+- Replace hotlinks before publishing the site
+- If the hotlinked image gets moved, it will break your design
+
+Part 3 
+What is a semantic HTML element?
+    Semantic elements descibe the meaning of the content inside the element, not just the way it looks
+
+SEO - Search engine optimization - how search engines rank well-structured pages - moves them higher in the search results
+
+Layout Semantic Elements: header, nav, main, section, aside, footer
+
+Content Semantic Elements: 
+<figure></figure> - image with a caption
+<figcaption> - caption for a figure image
+<time>
+<address>
+<mark> - highlighted text
+<details> / <summary> - expand and collapse more details
