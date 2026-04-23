@@ -10,24 +10,88 @@
         <h1>Massena</h1>
         <p>Massena, New York</p>
     </header>
-    <nav>
+    <nav> <!-- links to parts of page -->
         <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#rank">Personal Ranking</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
     <main>
-        <section id="about">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem tenetur voluptatibus molestiae delectus. Quia non ipsam nostrum, corrupti numquam repudiandae. A inventore commodi dolore porro perspiciatis suscipit, fuga quisquam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorem tenetur voluptatibus molestiae delectus. Quia non ipsam nostrum, corrupti numquam repudiandae. A inventore commodi dolore porro perspiciatis suscipit, fuga quisquam!</p>
+        <section id="about"> <!-- Description of Massena -->
+            <p>Massena was established in 1802. It is the home of our Alcoa, which is the world's longest continuously operating aluminum smelter. We have a population of ~12,000 people.</p>
+            <p>We have Springs Park, which had presidents and royalty coming down for it's belived 'healing properties'. This town is in upstate New, York.</p>
         </section>
         <section id="attractions">
             <h2>Attractions</h2>
             <ul>
-                <li>Shit to do #1</li>
-                <li>Shit to do #2</li>
-                <li>Shit to do #3</li>
+                <li>Atalian Affair</li>
+                <li>Springs Park</li>
+                <li>Frozen Frenzy</li>
+                <li>Massena Beach</li>
             </ul>
-            <img src="https://www.shutterstock.com/image-vector/angry-jealous-mad-dislike-poop-600w-2381587185.jpg">
+            <img src="frozenFrenzy.jpg" width="200" alt="Frozen Frenzy Arcade">
+        </section>
+        <section id="facts">
+            <h2>Facts About Massena</h2>
+            <table border="2"> <!-- Table -->
+                <thead>
+                    <tr>
+                        <th>Fact</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Mall</th>
+                        <td>The Massena mall shut down post-covid</td>
+                    </tr>
+                    <tr>
+                        <th>Labor Day</th>
+                        <td>Every Labor day, we all meet up at springs park</td>
+                    </tr>
+                    <tr>
+                        <th>Canada</th>
+                        <td>Massena is only 10 miles away from the Candian borders.</td>
+                    </tr>
+                    <tr>
+                        <th>Electricity</th>
+                        <td>We have cheap Electricity costs due to being close to St. Lawrence River, which gives us power.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="rank"> <!-- Personal Ranking -->
+            <h2>Ranked Places</h2>
+            <ol>
+                <li>Atalian Affair</li>
+                <li>BJ's</li>
+                <li>Springs Park</li><br>
+            </ol>
+        </section>
+        <section id="links"> <!-- Links to places listed / about them -->
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/61556032360549/mentions/">Frozen Frenzy</a></li>
+                <li><a href="https://www.anitalianaffair.com/">Atalian Affair</a></li>
+                <li><a href="https://www.exploremassena.com/tag/springs-park/">Springs Park</a></li><br><br>
+            </ul>
+        </section>
+        <section id="contact"> <!-- Contact to my Email -->
+            <h2>Contact Me</h2>
+            <form action="mailto:cte-kohl.goodfellow@sllboces.org" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name Here" required><br>
+                <button type="submit">Submit</button><br>
+            </form>
         </section>
     </main>
+    <footer>
+        <h3>Kohl Goodfellow</h3>
+        <h3>2026</h3>
+    </footer>
 </body>
 </html>
